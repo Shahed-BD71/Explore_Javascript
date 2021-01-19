@@ -1,6 +1,5 @@
 // All about Bangladeshi School/College Grading System.
-
-var per = 46;
+var per = 80;
 if (per >= 80 && per <= 100){
     console.log("A+");
 }else if (per >= 70 && per <= 79){
@@ -13,7 +12,7 @@ if (per >= 80 && per <= 100){
     console.log("C");
 }else if (per >= 33 && per <= 39){
     console.log("D");
-}else if (per / 32 && per < 32){
+}else if (per <= 32){
     console.log("F");
 }else{
     console.log("Please Enter Valid Number");
